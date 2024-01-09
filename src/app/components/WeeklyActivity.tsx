@@ -28,7 +28,7 @@ const ChartPage: React.FC = () => {
 
             datasets: [
               {
-                label: "blue",
+                label: "Withdraw",
                 data: [480, 350, 330, 480, 150, 410, 400],
                 backgroundColor: "#1814F3",
                 borderRadius: 30,
@@ -38,7 +38,7 @@ const ChartPage: React.FC = () => {
                 minBarLength: 2,
               },
               {
-                label: "green",
+                label: "Diposit",
                 data: [300, 120, 230, 380, 230, 250, 330],
                 backgroundColor: "#16DBCC",
                 borderRadius: 30,
@@ -95,29 +95,29 @@ const ChartPage: React.FC = () => {
 
   return (
     <div className="w-[375px] lg:w-[487px] lg:h-[299px] mx-auto h-auto lg:mx-0  lg:mt-[20px] bg-white lg:bg-transparent p-[1.56rem] lg:p-0 ">
-      <div className=" text-[1rem] font-semibold font-inter text-darkslateblue text-left">
+      <div className="text-[#343C6A] text-base font-semibold ">
         Weekly Activity
       </div>
       <div className=" lg:block lg:w-[487px] lg:h-[261px] lg:bg-white lg:rounded-[20px]">
-      <div className="flex flex-row gap-[28px] justify-end mt-[17px] mb-[-13px] mr-[18px]">
-        <div className="w-auto h-auto flex lg:absolute mt-3 gap-[28px] lg:mr-2 ">
-          <div className="w-[62px] flex h-[15px] items-center  ">
-            <div className="w-3 h-3   bg-teal-400 rounded-full mr-[10px]" />
-            <div className="  text-slate-400 text-xs font-normal ">Diposit</div>
-          </div>
-          <div className="w-[77px] flex h-[15px] items-center  ">
-            <div className="w-3 h-3  mr-[10px]  bg-pink-400 rounded-full" />
-            <div className="  text-slate-400 text-xs font-normal ">
-              Withdraw
+        <div className="flex flex-row gap-[28px] justify-end mt-[17px] mb-[-13px] mr-[18px]">
+          <div className="w-auto h-auto flex lg:absolute mt-3 gap-[28px] lg:mr-2 ">
+            <div className="w-[62px] flex h-[15px] items-center  ">
+              <div className="w-3 h-3   bg-teal-400 rounded-full mr-[10px]" />
+              <div className="  text-slate-400 text-xs font-normal ">
+                Diposit
+              </div>
+            </div>
+            <div className="w-[77px] flex h-[15px] items-center  ">
+              <div className="w-3 h-3  mr-[10px]  bg-[#1814F3] rounded-full" />
+              <div className="  text-slate-400 text-xs font-normal ">
+                Withdraw
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className=" w-[289px] lg:w-[442px] h-[204px] lg:h-[204px] lg:mt-[40px]  mx-auto mt-[12px]">
-        <div>
+        <div className=" w-[289px] lg:w-[442px] h-[204px] lg:h-[204px] lg:mt-[40px]  mx-auto mt-[12px]">
           <canvas id="myChart" ref={chartRef}></canvas>
         </div>
-      </div>
       </div>
     </div>
   );

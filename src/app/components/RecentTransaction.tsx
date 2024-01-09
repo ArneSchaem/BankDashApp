@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { IoCardOutline } from "react-icons/io5";
 import { PiPaypalLogo } from "react-icons/pi";
 
@@ -8,12 +7,10 @@ import { BsCoin } from "react-icons/bs";
 const RecentTransaction = () => {
   return (
     <div className="w-[375px] lg:w-[231px] mx-auto lg:flex lg:h-[208] lg:mx-0 flex-col lg:ml-[25px]  lg:bg-transparent  bg-white p-[1.56rem] lg:p-0  ">
-        <div className="text-slate-700 text-base font-semibold lg:text-[1.13rem] ">
-
-          Recent Transaction
-        </div>
+      <div className="text-slate-700 text-base font-semibold lg:text-[1.13rem] ">
+        Recent Transaction
+      </div>
       <div className="w-[20.3rem] lg:w-[14.4rem] lg:mt-auto lg:h-[10.6rem] h-[15.3rem]  bg-white  rounded-[15px] p[15px]">
-    
         <div className="w-[18rem] lg:w-[12.5rem]  lg:h-[8.75rem] flex flex-col gap-[12px] h-[10.8rem] mx-[1.13rem] my-[1.25rem] lg:my-[0.92rem]  lg:mx-[0.92rem]">
           <div className="w-[289px] lg:w-[200px] h-[50px]relative flex flex-row items-center ">
             <div className="w-[50px] lg:w-[40px] lg:h-[40px]  h-[50px] bg-orange-100 flex-shrink-0 rounded-full items-center flex justify-center mr-[15px] lg:mr-[8px]">
@@ -22,9 +19,7 @@ const RecentTransaction = () => {
 
             <div className="flex w-[224px] relative justify-between ">
               <div className="w-[111px] lg:w-[103px] h-9 relative flex flex-col">
-                <div
-                  className="text-neutral-800  text-sm lg:text-[13px] font-medium"
-                >
+                <div className="text-neutral-800  text-sm lg:text-[13px] font-medium">
                   Deposit from my
                 </div>
                 <div className="text-slate-400 text-xs  font-normal">

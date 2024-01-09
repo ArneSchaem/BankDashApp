@@ -23,7 +23,7 @@ const SwipeComponent: React.FC = () => {
           <div
             key={index}
             className="keen-slider__slide"
-            style={{ flex: "0 0 auto", paddingRight:"30px",}}
+            style={{ flex: "0 0 auto", paddingRight: "30px" }}
           >
             <Image
               src={src}

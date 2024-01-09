@@ -4,6 +4,8 @@ import RecentTransaction from "./components/RecentTransaction";
 import WeeklyActivity from "./components/WeeklyActivity";
 import SideBar from "./components/SideBar";
 import CreditCards from "./components/CreditCards";
+import PieChart from "./components/PieChart";
+import QuickTransfer from "./components/QuickTransfer";
 
 export default function Home() {
   return (
@@ -18,8 +20,9 @@ export default function Home() {
           <Cards />
         </div>
         <RecentTransaction />
-
         <WeeklyActivity />
+        <PieChart />
+        <QuickTransfer />
       </div>
     </main>
   );
