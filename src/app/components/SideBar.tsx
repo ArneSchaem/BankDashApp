@@ -26,7 +26,7 @@ const SideBar = () => {
 
   return (
     <div className="lg:max-w-[1024px] relative h-0">
-      <div className=" lg:w-[230px] lg:flex lg:flex-col hidden lg:h-screen bg-white">
+      <div className=" lg:w-[230px] lg:h-[943px]  lg:flex lg:flex-col hidden  bg-white">
         <div className="flex flex-row  p-[24px] gap-[9px]">
           <Image
             src="/images/LG.png"
