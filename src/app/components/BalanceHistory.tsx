@@ -73,13 +73,11 @@ const Home: React.FC = () => {
 
   return (
     <div className="w-[375px] h-[254px] lg:w-[423px] lg:h-[220px] lg:mt-[20px]   lg:bg-transparent  relative bg-white  flex flex-col ">
-        
-        <div className="text-slate-700 text-lg font-semibold flex ">
+      <div className="text-slate-700 text-lg font-semibold flex ">
         Balance History
       </div>
-
       <div className="w-[325px] lg:mt-[16px] h-[223px] lg:w-[423px] lg:h-[220px] bg-white rounded-[15px]">
-        <div className="w-[383px]  h-[220px] flex mt-[15px] mx-auto " >
+        <div className="w-[383px]  h-[220px] flex mt-[15px] mx-auto ">
           <canvas ref={chartRef}></canvas>
         </div>
       </div>

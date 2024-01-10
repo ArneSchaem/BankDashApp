@@ -66,7 +66,7 @@ const Responsive: React.FC = () => {
           </Slider>
         </div>
         <div className="w-[289px] h-10  relative flex flex-row items-center gap-[25px] lg:gap-[20px] lg:ml-[15px] mx-auto">
-          <div className="text-[#718EBF] text-xs flex font-normal"> 
+          <div className="text-[#718EBF] text-xs flex font-normal">
             Write Amount
           </div>
           <div className="w-[187px] lg:w-[168px]   h-10 bg-slate-100 flex rounded-[50px] items-center justify-between">

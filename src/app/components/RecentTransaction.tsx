@@ -6,7 +6,7 @@ import { BsCoin } from "react-icons/bs";
 
 const RecentTransaction = () => {
   return (
-    <div className="w-[375px] lg:w-[231px] mx-auto lg:flex lg:h-[208] lg:mx-0 flex-col lg:ml-[25px]  lg:bg-transparent  bg-white p-[1.56rem] lg:p-0  ">
+    <div className="w-[375px] lg:mt-[20px] lg:w-[231px] mx-auto lg:flex lg:h-[208] lg:mx-0 flex-col lg:ml-[25px]  lg:bg-transparent  bg-white p-[1.56rem] lg:p-0  ">
       <div className="text-slate-700 text-base font-semibold lg:text-[1.13rem] ">
         Recent Transaction
       </div>

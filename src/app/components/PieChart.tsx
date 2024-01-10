@@ -26,7 +26,6 @@ const IndexPage: React.FC = () => {
           maintainAspectRatio: false,
           plugins: {
             legend: {
-              
               display: false,
             },
             title: {
@@ -42,24 +41,14 @@ const IndexPage: React.FC = () => {
   return (
     <div className="w-[375px] lg:ml-[1.56rem] h-[271px] lg:w-[231px] lg:h-auto lg:mt-[20px] flex flex-col lg:gap-[16px]  relative bg-white  lg:bg-transparent ">
       <div className="text-slate-700 text-base font-semibold">
-      Expense Statistics
-    </div>
-
-    <div className="w-[325px] items-center lg:w-[231px] lg:h-[261px] flex h-60 bg-white relative justify-center mx-auto rounded-[15px] ">
-      <div className="w-[202px] mx-auto justify-center flex items-center lg:my-auto h-[195px]">
-     
-
-        <canvas ref={canvas}  width="202px"  height="195px"></canvas>
-
+        Expense Statistics
+      </div>
+      <div className="w-[325px] items-center lg:w-[231px] lg:h-[261px] flex h-60 bg-white relative justify-center mx-auto rounded-[15px] ">
+        <div className="w-[202px] mx-auto justify-center flex items-center lg:my-auto h-[195px]">
+          <canvas ref={canvas} width="202px" height="195px"></canvas>
+        </div>
       </div>
     </div>
-
-
-        
-      </div>
-   
-
-
   );
 };
 

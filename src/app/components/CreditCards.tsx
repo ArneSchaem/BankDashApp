@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CreditCards = () => {
   return (
-    <div className="w-[30.43rem] flex h-[13rem] flex-col relative ">
+    <div className="w-[30.43rem] lg:mt-[20px] flex h-[13rem] flex-col relative ">
       <div className="w-[30.43rem] h-[10.62rem] justify-between inline-flex">
         <div className="text-[#343C6A] text-[1.125rem] font-semibold ">
           My Cards
